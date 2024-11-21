@@ -22,26 +22,14 @@ namespace RestaurantManagementService
             builder.Services.AddSwaggerGen();
 
             // Add Database Context with connection string
-            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                                   ?? Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
 
+            // Register DbContext with the connection string
             builder.Services.AddDbContext<RestaurantManagementServiceDbContext>(options =>
-            {
-                options.UseSqlServer(connectionString, sqlOptions =>
-                {
-                    sqlOptions.EnableRetryOnFailure(
-                        maxRetryCount: 5,
-                        maxRetryDelay: TimeSpan.FromSeconds(10),
-                        errorNumbersToAdd: null);
-                });
-
-                // Enable detailed SQL logs in development
-                if (builder.Environment.IsDevelopment())
-                {
-                    options.EnableSensitiveDataLogging()
-                           .EnableDetailedErrors();
-                }
-            });
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection"),
+                    sqlOptions => sqlOptions.EnableRetryOnFailure()
+                ));
+          
 
             // Register Repository
             builder.Services.AddScoped<IRestaurantService, RestaurantService>();
