@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: restaurant-management-service
+spec:
+  type: LoadBalancer # Expose the service externally
+  selector:
+    app: restaurant-management-service
+  ports:
+    - protocol: TCP
+      port: 80 # External port accessible to users
+      targetPort: 8080 # Update to match the application's listening port

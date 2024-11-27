@@ -1,18 +1,21 @@
+# Stage 1: Build the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /App
 
-# Copy only the main project file
-COPY RestaurantManagementService/*.csproj ./RestaurantManagementService/
-RUN dotnet restore RestaurantManagementService/RestaurantManagementService.csproj
+# Copy only the project file to cache dependencies
+COPY RestaurantManagementService.csproj ./RestaurantManagementService.csproj
+RUN dotnet restore ./RestaurantManagementService.csproj
 
-# Copy the remaining files
+# Copy all application files
 COPY . ./
-RUN dotnet publish RestaurantManagementService/RestaurantManagementService.csproj -c Release -o out
+RUN dotnet publish ./RestaurantManagementService.csproj -c Release -o /App/out
 
-# Build runtime image
+# Stage 2: Create the runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /App
 COPY --from=build-env /App/out .
 
+# Specify the entry point to run the application
 ENTRYPOINT ["dotnet", "RestaurantManagementService.dll"]
+
 
