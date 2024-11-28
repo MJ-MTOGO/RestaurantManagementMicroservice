@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestaurantManagementServiceTests.IntergrationTest
+namespace RestaurantManagementServiceTest.IntergrationTest
 {
     internal class RestaurantIntergrationTest
     {

@@ -1,4 +1,4 @@
-namespace RestaurantManagementServiceTests.UnitTest
+namespace RestaurantManagementServiceTest.UnitTest
 {
     public class RestaurantUnitTest
     {
