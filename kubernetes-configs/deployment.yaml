@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurant-management-service
-          image: gcr.io/mtogo-439509/restaurant-management-service:latest # Replace with your Docker image name
+          image: gcr.io/mtogov1/restaurant-management-service:latest # Replace with your Docker image name
           ports:
             - containerPort: 8080 # Update to match the application's listening port
           env:

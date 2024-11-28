@@ -54,8 +54,7 @@
               "RelativeToolTip": "Infrastructure\\WebSocketManagement\\RestaurantWebSocketManager.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:09:45.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T14:09:45.307Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "Application\\Services\\OrderListenerService.cs",
               "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Application\\Services\\OrderListenerService.cs",
               "RelativeToolTip": "Application\\Services\\OrderListenerService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwDoAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T14:06:39.971Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Infrastructure\\Publishers\\MessagePublisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:01:39.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T14:01:39.959Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Application\\Ports\\IMessagePublisher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:59:30.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T13:59:30.112Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Application\\Ports\\IMessageBus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:58:10.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T13:58:10.495Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAuwFoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T13:11:20.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T13:11:20.202Z"
             }
           ]
         }
