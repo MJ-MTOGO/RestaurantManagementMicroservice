@@ -42,7 +42,7 @@ namespace RestaurantManagementService.Controllers
             var readyToPickup = new ReadyToPickup(request.OrderId);
             await _messagePublisher.PublishReadyToPickupAsync(readyToPickup);
 
-            return Ok("Message published to Google Cloud Pub/Sub.");
+            return Ok(new { message = "Message published to Google Cloud Pub/Sub." });
         }
 
         [HttpGet("{id}")]
