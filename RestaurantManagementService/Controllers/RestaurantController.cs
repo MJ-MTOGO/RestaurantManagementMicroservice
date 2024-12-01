@@ -2,6 +2,7 @@
 using RestaurantManagementService.Application.Ports;
 using RestaurantManagementService.Application.DTOs;
 using RestaurantManagementService.Domain.ValueObjects;
+using RestaurantManagementService.Infrastructure.Publishers;
 
 namespace RestaurantManagementService.Controllers
 {
@@ -10,9 +11,11 @@ namespace RestaurantManagementService.Controllers
     public class RestaurantController : ControllerBase
     {
         private readonly IRestaurantService _restaurantService;
+        private readonly IMessagePublisher _messagePublisher;
 
-        public RestaurantController(IRestaurantService restaurantService)
+        public RestaurantController(IRestaurantService restaurantService, IMessagePublisher messagePublisher)
         {
+            _messagePublisher = messagePublisher;
             _restaurantService = restaurantService ?? throw new ArgumentNullException(nameof(restaurantService));
         }
 
@@ -32,6 +35,14 @@ namespace RestaurantManagementService.Controllers
             {
                 return StatusCode(500, $"An error occurred while creating the restaurant: {ex.Message}");
             }
+        }
+        [HttpPost("readytopickup")]
+        public async Task<IActionResult> PublishMessage([FromBody] ReadyToPickup request)
+        {
+            var readyToPickup = new ReadyToPickup(request.OrderId);
+            await _messagePublisher.PublishReadyToPickupAsync(readyToPickup);
+
+            return Ok("Message published to Google Cloud Pub/Sub.");
         }
 
         [HttpGet("{id}")]

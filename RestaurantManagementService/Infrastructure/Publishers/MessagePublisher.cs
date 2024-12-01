@@ -12,21 +12,17 @@ namespace RestaurantManagementService.Infrastructure.Publishers
             _messageBus = messageBus;
         }
 
-        //Ex. på en "task" fra interface 
-        //public async Task PublishOrderCreatedAsync(Guid orderId, DeliveryAddress deliveryAddress)
-        //{
-        //    var message = new
-        //    {
-        //        OrderId = orderId,
-        //        DeliveryAddress = new
-        //        {
-        //            deliveryAddress.Street,
-        //            deliveryAddress.City,
-        //            deliveryAddress.PostalCode
-        //        }
-        //    };
+        public async Task PublishReadyToPickupAsync(ReadyToPickup readyToPickup)
+        {
+            var message = new
+            {
+                readyToPickup = new
+                {
+                    orderId = readyToPickup.OrderId,
+                }
+            };
+            await _messageBus.PublishAsync("ready-to-pickup", message);
 
-        //    await _messageBus.PublishAsync("OrderCreated", message);
-        //}
+        }
     }
 }
