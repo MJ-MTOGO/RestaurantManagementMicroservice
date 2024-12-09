@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\infrastructure\\websocketmanagement\\restaurantwebsocketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:infrastructure\\websocketmanagement\\restaurantwebsocketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\application\\services\\orderlistenerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:application\\services\\orderlistenerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184E6727-B066-47DF-A278-2E74D584E4E7}|RestaurantManagementService.csproj|c:\\users\\moham\\source\\repos\\exam\\restaurantmanagementmicroservice\\restaurantmanagementservice\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestaurantWebSocketManager.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Infrastructure\\WebSocketManagement\\RestaurantWebSocketManager.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\WebSocketManagement\\RestaurantWebSocketManager.cs",
-              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Infrastructure\\WebSocketManagement\\RestaurantWebSocketManager.cs",
-              "RelativeToolTip": "Infrastructure\\WebSocketManagement\\RestaurantWebSocketManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvyEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:04:51.515Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -52,28 +47,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAkAAAAAAAAAA==",
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Application\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Application\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "Application\\Services\\RestaurantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:04:33.463Z",
+              "WhenOpened": "2024-12-09T00:03:57.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T00:02:37.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderListenerService.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Application\\Services\\OrderListenerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\OrderListenerService.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Application\\Services\\OrderListenerService.cs",
+              "RelativeToolTip": "Application\\Services\\OrderListenerService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:02:34.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwD4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:42:11.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RestaurantController.cs",
               "DocumentMoniker": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Controllers\\RestaurantController.cs",
               "RelativeDocumentMoniker": "Controllers\\RestaurantController.cs",
               "ToolTip": "C:\\Users\\moham\\source\\repos\\Exam\\RestaurantManagementMicroservice\\RestaurantManagementService\\Controllers\\RestaurantController.cs",
               "RelativeToolTip": "Controllers\\RestaurantController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:03:52.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T22:36:53.511Z"
             }
           ]
         }

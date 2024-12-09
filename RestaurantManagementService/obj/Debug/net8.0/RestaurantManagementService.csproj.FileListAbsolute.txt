@@ -184,3 +184,4 @@ C:\Users\moham\source\repos\Exam\RestaurantManagementMicroservice\RestaurantMana
 C:\Users\moham\source\repos\Exam\RestaurantManagementMicroservice\RestaurantManagementService\obj\Debug\net8.0\RestaurantManagementService.pdb
 C:\Users\moham\source\repos\Exam\RestaurantManagementMicroservice\RestaurantManagementService\obj\Debug\net8.0\RestaurantManagementService.genruntimeconfig.cache
 C:\Users\moham\source\repos\Exam\RestaurantManagementMicroservice\RestaurantManagementService\obj\Debug\net8.0\ref\RestaurantManagementService.dll
+C:\Users\moham\source\repos\Exam\RestaurantManagementMicroservice\RestaurantManagementService\bin\Debug\net8.0\firebase-adminsdk-key.json
